@@ -5,19 +5,21 @@ This project explores the factors that contribute to a movie’s success using a
 The project involved formulating a clear hypothesis about movie success, performing non-trivial data preprocessing, and designing visualizations that support or challenge the hypothesis. Key steps included cleaning missing and inconsistent data, transforming nested JSON-style fields into usable features, and creating derived variables such as primary genre and cast size.
 
 The dataset used is the TMDB 5000 Movie Dataset(publicly available on Kaggle). This dataset is larger and more complex, containing information on budget, revenue, a list of genres, directors, cast, and user ratings.
+[TMDB 5000 Movie Dataset on Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
 
-##  How to Run  
+##  How to Run 
+1. **Download the datset**
 
-1. **Clone the repository**  
+2. **Clone the repository**  
    ```bash
    git clone https://github.com/DA5401-JUL-NOV-2025/assignment-1-mm22b003-ShlokShetty.git
    cd assignment-1-mm22b003-ShlokShetty/movie-visualization
-2. **Create and activate virtual environment (recommended)**
+3. **Create and activate virtual environment (recommended)**
    ```bash
    python3 -m venv venv
    source venv/bin/activate   # Linux/Mac
    venv\Scripts\activate      # Windows
-3. **Run the Jupyter Notebook**
+4. **Run the Jupyter Notebook**
    ```bash
    jupyter notebook
 
